@@ -81,9 +81,6 @@ pl_m = ["Sonne_199e28", "Merkur_3301e20", "Mars_6417e20", "Erde_59724e20",
 c.create_text(400, 50, text=str(pl_m), fill="white", font=("Calibri", 8))
 c.move(pl_1, MID_X+200, MID_Y)
 
-dx = 0.1
-dy = 0.1
-
 f = (G * (int(m1)) * (int(m2)) / (int(r)) ** 2)
 
 s = 'Fg = {:3.3e}'.format(f)
